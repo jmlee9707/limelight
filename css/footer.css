@@ -1,0 +1,16 @@
+.bottom-info{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+#contact {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+#bottom-info{
+    list-style: none;
+}

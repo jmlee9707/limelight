@@ -1,0 +1,43 @@
+div.title {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    margin: 0 auto;
+    width: 700px;
+}
+
+div.container {
+    overflow: hidden;
+    
+}
+
+div.item_left {
+    float: left;
+    margin: 10px 10px;
+}
+div.item_right {
+    float: right;
+    margin: 10px 10px;
+}
+div.item {
+    margin: 10px 200px;
+}
+div.item_center {
+    margin: 10px 10px;
+}
+#title {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.blank {
+    margin-top: 50px;
+}

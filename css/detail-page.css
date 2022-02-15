@@ -1,0 +1,85 @@
+section{
+    width: 100%;
+    margin: 0;
+}
+.brand-page {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+}
+.specific-brand {
+    display: block;
+    width: 1006px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.brand_info {
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    margin: 100px 50px auto auto;
+    width: 300px;
+}
+.brand_info div {
+    margin: 20px;
+}
+.brandExplanation {
+    font-size: 85%;
+}
+.click-icon {
+    width: 500px;
+    overflow: hidden;
+}
+.specific-icon {
+    display: inline-block;
+    float: left;
+}
+.brandInsta img {
+    width: 30px;
+}
+.pop-up {
+    width: 30px;
+}
+.product {
+    display: inline-block;
+    margin: 100px auto auto 50px;
+}
+.product_ {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+.product_ img {
+    width: 70%;
+    margin: 20px;
+}
+.brand-and-mybrand {
+    overflow: hidden;
+}
+.brandName {
+    display: block;
+    width: 260px;
+    float: left;
+}
+.brandDate {
+    display: block;
+    width: 260px;
+    float: left;
+}
+
+.bottom-info{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    display: block;
+}
+#contact {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+#bottom-info{
+    list-style: none;
+}

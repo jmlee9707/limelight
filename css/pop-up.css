@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.click, .popup_box{
+
+  transform: translate(-15%, 0%);
+  border-radius: 5px;
+}
+.click{
+  background: white;
+  color: #C0D725;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid white;
+}
+.click:hover {
+  background: #C0D725;
+  color: white;
+  border: 1px solid #C0D725
+
+}
+.popup_box{
+  width: 300px;
+  height: 180px;
+  background: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  padding: 30px 30px 40px 30px;
+  border: 1px solid #b3b3b3;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+  z-index: 9999;
+  display: none;
+}
+.popup_box i{
+  font-size: 35px;
+  color: #C0D725;
+  padding: 10px 40px;
+  border-radius: 50%;
+  margin: -10px 0 20px 0;
+}
+.popup_box h1{
+  font-size: 25px;
+  color: #1b2631;
+  margin-bottom: 5px;
+}
+.popup_box label{
+  font-size: 18px;
+  color: #404040;
+}
+.popup_box .btns{
+  margin: 40px 0 0 0;
+}
+.btns .btn1, .btns .btn2{
+  background: #999999;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  padding: 8px 11px;
+}
+.btns .btn2{
+  margin-left: 20px;
+  background: #C0D725;
+  border: 1px solid #C0D725;
+}
+.btns .btn1:hover{
+  transition: .5s;
+  background: #8c8c8c;
+}
+.btns .btn2:hover{
+  transition: .5s;
+  background: #C0D725;
+}

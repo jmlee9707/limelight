@@ -1,0 +1,30 @@
+div.container {
+    margin-top: 100px;
+    overflow: hidden;
+}
+div.title {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+div.sub-title {
+    float: left;
+    margin: 3px 3px;
+    padding: 3px 10px;
+    text-align: center;
+    font-size: 12px;
+    width: 280px;
+    color: black;
+}
+div.item {
+
+    float: left;
+    margin: 3px 3px;
+    padding: 3px 10px;
+}
+
+section {
+    margin: 0 auto;
+    width: 1350px;
+}

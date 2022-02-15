@@ -1,0 +1,55 @@
+.join-page{
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+}
+.join-input{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.join-agree{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+.submit-button{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.box{
+    margin-bottom: 0.6em;
+    width: 300px;
+    height: 40px;
+}
+.join-agree-box {
+    height: auto;
+    border: solid black 1px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.marketing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.service{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input[type = submit]{
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 130px;
+    margin-bottom: 0px;
+    width: 300px;
+}
+input[type = submit]:hover {
+    background-color: #C0D725;
+}

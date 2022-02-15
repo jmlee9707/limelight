@@ -1,0 +1,76 @@
+@font-face {
+    src: url(./font/Philosopher-Regular.ttf);
+    font-family: "philosopher";
+}
+
+@font-face {
+    src: url(./font/FrederickatheGreat-Regular.ttf);
+    font-family: "frederick";
+}
+
+@font-face {
+    src: url(./font/Oswald-Regular.ttf);
+    font-family: "oswald";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    left: 0; top: 0; right: 0;
+    height: 105px;
+}
+
+.brandname{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "philosopher";
+    margin-bottom: 0px;
+}
+
+.limelight{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+#category_menu{
+    list-style: none;
+    padding: 10px;
+    margin-top: 0px;
+}
+.category_menu{
+    float: left;
+    margin: 10px;
+}
+
+.category_menu>a:hover{ /*정민 수정*/
+    color: #C0D725;
+    /* font-weight: bold; } */
+}
+
+.user_menu>a:hover{ /*정민 수정*/
+    color: #C0D725;
+    /* font-weight: bold; } */
+}
+
+
+
+.user_menu{
+    float: right;
+    margin: 10px;
+}
+
+.line {
+    width: 100%;
+}
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+div.title {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    margin: 0 auto;
+    width: 960px;
+}
+
+div.container {
+    overflow: hidden;
+}
+
+div.item {
+    float: left;
+}
+div.sub-title-left {
+    width: 475px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.sub-title-left #sub-title {
+    margin-top: -5px;
+}
+div.sub-title-right {
+    width: 475px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#title {
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: black;
+    margin-bottom: 5px;
+}
+#sub-title {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.blank {
+    margin-top: 20px;
+}
+
+div.long-line {
+    width: 960px;
+    margin-top: 100px;
+}

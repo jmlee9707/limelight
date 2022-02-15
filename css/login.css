@@ -1,0 +1,72 @@
+.login-page {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+}
+.login-input {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 0.6em;
+}
+input[type = "text"] {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 0.6em;
+}
+input[type = "password"] {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 0.6em;
+}
+.login-social {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.social-icon{
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 0.6em;
+}
+#icon-image {
+    width: 35px;
+    height: 35px;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}
+.login-submit {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+input[type = submit]{
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 130px;
+    margin-bottom: 0px;
+    width: 300px;
+}
+input[type = submit]:hover {
+    background-color: #C0D725;
+}
+.login-info{
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.find-info{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+#find-info{
+    list-style: none;
+    display: inline-block;
+}

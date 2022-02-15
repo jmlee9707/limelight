@@ -1,0 +1,53 @@
+.introduction-info {
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.main-image {
+    display: block;
+    width: 40%;
+    margin: 60px auto 30px auto;
+    text-align: center;
+    padding: 20px 1px;
+    background-color: #c1c1c160;
+    
+}
+.main-image img {
+    margin: 0 15px;
+    width: 40%;
+}
+
+.limelight-info {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+.foundation-info {
+    padding: 5px 0;
+    font-size: 1.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-weight: lighter;*/
+}
+
+.limelight-definition {
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+.additional-explanation {
+    width: 300px;
+    padding: 20px 0 20px 0;
+    font-size: 0.85em;
+}
+#location {
+    padding: 10px 0 5px 0;
+    font-size: large;
+}
+.location-content {
+    padding: 3px 0 3px 0;
+    font-size: normal;
+}
+.open {
+    padding: 5px 0 5px 0;
+    font-size: small;
+}

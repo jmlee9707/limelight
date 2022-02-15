@@ -1,0 +1,13 @@
+.go_top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background: fixed;
+    background: #333;
+    color: #fff;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+}
