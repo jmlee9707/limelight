@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>JOIN</title>
+        <link rel="shortcut icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+        <link rel="icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/myBrand.css">
+        <link rel="stylesheet" href="./css/join.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/scroll.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="./js/scroll.js"></script>
+        <style>
+            div.layback {
+                margin-top: 54px;
+                margin-bottom: 100px;
+            }
+
+            #join {
+             color: #C0D725;
+             font-weight: normal;
+             font-size: 1em;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="brandname">
+                <p class="limelight">
+                    <a href="./index2.html">limelight</a>
+                </p>
+            </div>
+            <div class="category">
+                <ul id="category_menu">
+                    <li class="category_menu">
+                        <a href="./limelight.html">LIMELIGHT</a> 
+                    </li>
+                    <li class="category_menu">
+                        <a href="./contact.html">CONTACT</a> 
+                    </li>
+                    <li class="category_menu">
+                        <a href="./brand.html">BRAND</a> 
+                    </li>
+                    <li class="category_menu">
+                        <a href="./collection.html" id="collection">COLLECTION</a>
+                    </li>
+                    <li class="user_menu">
+                        <a href="./login.html">LOGIN</a> 
+                    </li>
+                    <li class="user_menu">
+                        <a href="./join.html" item id="join">JOIN</a> 
+                    </li>
+                    <li class="user_menu">
+                        <a href="./index3.html">STYLE</a> 
+                </ul>
+                <br>
+            </div>
+            <hr class="line">
+        </header>
+        <aside>
+            <input type="checkbox" id="menuicon">
+            <ul>
+                <li>
+                    <label for="menuicon">
+                        <span></span><span></span><span></span>
+                    </label>
+                </li>
+            </ul>
+            <div class="sidebar">
+                <h3 class="mybrand">My Brand</h3>
+                <div class="recommend-brand">
+                    <a href="./classiccasual_brand/shirter/shirter.html"><p class="mybrand-name">SHIRTER</p></a>
+                </div>
+          </div>
+            <a href="#" class="go_top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </aside>
+        <section>
+            <div class="layback"><p>&nbsp;</p></div>
+
+            <div class="join-page">
+                <div class="join-input">
+                    <div><input type="text" name="id" placeholder="ID" class="box"></div>
+                    <div><input type="mail" name="email" placeholder="E.MAIL" class="box"></div>
+                    <div><input type="password" name="pw" placeholder="PASSWORD" class="box"></div>
+                    <div><input type="password" name="pw" placeholder="PASSWORD CONFIRM" class="box"></div>
+                </div>
+                <div class="join-agree">
+                    <div class="join-agree-box">
+                        <div class="marketing">
+                            <label for="yes_or_no yes">마케팅 수신 동의(SMS/E-MAIL)</label>
+                            <input type="radio" id="yes_or_no yes" name="y_n" value="y">
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="yes_or_no no" name="y_n" value="n">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                    <div class="join-agree-box">
+                        <div class="service">
+                            <label for="agree">이용약관과 개인정보 수집 및 동의</label>
+                            <input type="checkbox" id="agree" value="agree">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <a href="./login.html"><input type="submit" value="JOIN"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="bottom-info">
+                <span id="contact">CONTACT</span>
+                <ul id="bottom-info">
+                    <li>02 - 123 -4567</li>
+                    <li>limelight@gmail.com</li>
+                    <li>Sandgo-ro 369, Dongjiak-gu, Seoul, South Korea</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

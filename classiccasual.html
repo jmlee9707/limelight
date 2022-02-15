@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CLASSIC CASUAL</title>
+    <link rel="shortcut icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index2.css">
+    <link rel="stylesheet" href="./css/myBrand.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- scroll -->
+    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./js/scroll.js"></script>
+    
+    <style>
+        table {
+            border-spacing: 20px;
+            margin-left: -100px;
+        }
+        
+        table img {
+            width: 200px;
+            height: 350px;
+        }
+        img:hover {
+            opacity: 0.5;  
+        }
+        section {
+            margin-top: 200px;
+        }
+        .brand-name {
+            opacity: 0;
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-size: large;
+        }
+        
+        .show-brand-name {
+            position: relative;
+            width: 200px;
+            height: 350px;
+            
+        }
+        a:hover .brand-name {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="brandname">
+            <p class="limelight">
+                <a href="./index.html">limelight</a>
+            </p>
+        </div>
+        <div class="category">
+            <ul id="category_menu">
+                <li class="category_menu">
+                    <a href="./limelight.html">LIMELIGHT</a> 
+                </li>
+                <li class="category_menu">
+                    <a href="./contact.html">CONTACT</a> 
+                </li>
+                <li class="category_menu">
+                    <a href="./brand.html">BRAND</a> 
+                </li>
+                <li class="category_menu">
+                    <a href="./collection.html" id="collection">COLLECTION</a>
+                </li>
+                <li class="user_menu">
+                    <a href="./login.html">LOGIN</a> 
+                </li>
+                <li class="user_menu">
+                    <a href="./join.html">JOIN</a> 
+                </li>
+                <li class="user_menu">
+                    <a href="./search.html">SEARCH</a> 
+            </ul>
+            <br>
+        </div>
+        <hr class="line">
+    </header>
+
+    <aside>
+        <input type="checkbox" id="menuicon">
+		<ul>
+			<li>
+				<label for="menuicon">
+					<span></span><span></span><span></span>
+				</label>
+			</li>
+		</ul>
+		<div class="sidebar">
+            <h3 class="mybrand">My Brand</h3>
+            <div class="recommend-brand">
+                <a href="./brandpage.html"><img src="./brand_image/sample_brand.jpg"  class="my-item" style="width: 200px;"></a>
+            </div>
+		</div>
+
+        <!-- scroll -->
+        <a href="#" class="go_top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </aside>
+
+    <section>
+        <div id="brand-table">
+            <table>
+                <tr>
+                    <td><a class="show-brand-name" href="./classiccasual_brand/neithers/neithers.html"><div class="brand-name">NEITHERS</div><div></div><img src="./classiccasual_brand/neithers/neithers.png"></a></td>
+                    <td><a class="show-brand-name" href="./classiccasual_brand/shirter/shirter.html"><div class="brand-name">SHIRTER</div><div></div><img class="brand-image" src="./classiccasual_brand/shirter/shirter.png"></a></td>
+                    <td><a class="show-brand-name" href="./preparing.html"><div class="brand-name">HORLISUN</div><div></div><img src="./classiccasual_brand/horlisun/horlisun.png"></td></a>
+                    <td><a class="show-brand-name" href="./preparing.html"><div class="brand-name">BRUMAN</div><div></div><img src="./classiccasual_brand/bruman/bruman.png"></td></a>
+                </tr>
+             <tr>
+                    <td><a class="show-brand-name" href="./preparing.html"><div class="brand-name">STEADYEVERYWEAR</div><div></div><img src="./classiccasual_brand/steadyeverywear/steadyeverywear.png"></td></a>
+                    <td><a class="show-brand-name" href="./preparing.html"><div class="brand-name">SLICKANDEASY</div><div></div><img src="./classiccasual_brand/slickandeasy/slickandeasy.png"></td></a>
+                    <td><a class="show-brand-name" href="./preparing.html"><div class="brand-name">THOMASMORE</div><div></div><img src="./classiccasual_brand/thomasmore/thomasmore.png"></td></a>
+                    <td><a class="show-brand-name" href="./preparing.html"><div class="brand-name">BLANKROOM</div><div></div><img src="./classiccasual_brand/blankroom/blankroom.png"></td></a>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="bottom-info">
+            <span id="contact">CONTACT</span>
+            <ul id="bottom-info">
+                <li>02 - 123 -4567</li>
+                <li>limelight@gmail.com</li>
+                <li>Sandgo-ro 369, Dongjiak-gu, Seoul, South Korea</li>
+            </ul>
+        </div>
+    </footer> -->
+</body>
+</html>

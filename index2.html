@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>limelight</title>
+    <link rel="shortcut icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/myBrand.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- scroll -->
+    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./js/scroll.js"></script>
+</head>
+
+<style>
+    div.title {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    section {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    div.container {
+        overflow: hidden;
+    }
+
+    div.item {
+        float: left;
+    }
+    div.sub-title-left {
+        width: 475px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .sub-title-left #sub-title {
+        margin-top: -5px;
+    }
+    div.sub-title-right {
+        width: 475px;
+        float: right;
+        text-align: right;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    #title {
+        font-size: 24px;
+        letter-spacing: 5px;
+        color: black;
+        margin-bottom: 5px;
+    }
+    #sub-title {
+        font-size: 14px;
+        color: darkgray;
+    }
+
+    .blank {
+        margin-top: 20px;
+    }
+
+    div.long-line {
+        width: 960px;
+        margin-top: 100px;
+    }
+
+    img.opac:hover {
+        opacity: 0.5;
+        float: auto;
+        position: relative;
+        
+    }
+</style>
+
+<body>
+    <header>
+        <div class="brandname">
+            <p class="limelight">
+                <a href="./index.html">limelight</a>
+            </p>
+        </div>
+        <div class="category">
+            <ul id="category_menu">
+                <li class="category_menu">
+                    <a href="./limelight.html">LIMELIGHT</a> 
+                </li>
+                <li class="category_menu">
+                    <a href="./contact.html">CONTACT</a> 
+                </li>
+                <li class="category_menu">
+                    <a href="./brand.html">BRAND</a> 
+                </li>
+                <li class="category_menu">
+                    <a href="./collection.html" id="collection">COLLECTION</a>
+                </li>
+                <li class="user_menu">
+                    <a href="./login.html">LOGIN</a> 
+                </li>
+                <li class="user_menu">
+                    <a href="./join.html">JOIN</a> 
+                </li>
+                <li class="user_menu">
+                    <a href="./index3.html">STYLE</a> 
+            </ul>
+            <br>
+        </div>
+        <hr class="line">
+    </header>
+
+    <aside>
+        <input type="checkbox" id="menuicon">
+		<ul>
+			<li>
+				<label for="menuicon">
+					<span></span><span></span><span></span>
+				</label>
+			</li>
+		</ul>
+		<div class="sidebar">
+            <h3 class="mybrand">My Brand</h3>
+            <div class="recommend-brand">
+                <a href="./classiccasual_brand/shirter/shirter.html"><p class="mybrand-name">SHIRTER</p></a>
+            </div>
+        </div>
+
+
+        <!-- scroll -->
+        <a href="#" class="go_top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </aside>
+
+    <section>
+        <!-- start main image! lime your light -->
+        <div class="container">
+            <div class="title">&nbsp;</div>
+            <div class="item">
+                <a href="./index3.html"><img src="./poster_1.png" id=mainImage width="960px"  alt="poster_1"></a>
+            </div>
+            <div class="sub-title-left"><p id="title">limelight</p><p id="sub-title">select your style you want to be recommended</p></div>
+            <div class="sub-title-right"><p id="sub-title">RECOMMEND</p></div>
+        </div>
+        <div class="long-line"><hr></div>
+        <div class="blank"></div>
+
+
+        <div class="container">
+            <div class="item"><a href="./collection.html"><img class="opac" src="./main_image/poster_3.png" width="960px" alt="poster_3"></a></div>
+            <div class="sub-title-left"><p id="title">lookbook</p><p id="sub-title">explore a variety of styles you want</p></div>
+            <div class="sub-title-right"><p id="sub-title">COLLECTION</p></div>
+        </div>
+        <div class="long-line"><hr></div>
+        <div class="blank"></div>
+
+        <div class="container">
+            <div class="item"><a href="https://hypebeast.kr/"><img onmouseover="changeFront(this)" onmouseout="changeBack(this)" src="./main_image/magazine.jpg" width="960px" height="600px" alt="magazine"></a></div>
+            <div class="sub-title-left"><p id="title">magazine</p><p id="sub-title">look for items that look good on you</p></div>
+            <div class="sub-title-right"><p id="sub-title">VIEW</p></div>
+        </div>
+        <div class="long-line"><hr></div>
+        <div class="blank"></div>
+
+        
+    </section>
+
+    <script>
+        var myImage=document.getElementById("mainImage");
+        var imageArray=["./poster_1.png","./main_image/poster_2.png"];
+        var imageIndex=0;
+        
+        function changeImage(){
+            myImage.setAttribute("src",imageArray[imageIndex]);
+            imageIndex++;
+            if(imageIndex>=imageArray.length){
+                imageIndex=0;
+            }
+        }
+        setInterval(changeImage,4000);
+
+        function changeFront(limelight) {
+          limelight.setAttribute('src', './main_image/magazine2.jpg');
+        }
+      
+        function changeBack(limelight) {
+          limelight.setAttribute('src', './main_image/magazine.jpg');
+        }
+    </script>
+
+    <footer>
+        <div class="bottom-info">
+            <span id="contact">CONTACT</span>
+            <ul id="bottom-info">
+                <li>02 - 123 -4567</li>
+                <li>limelight@gmail.com</li>
+                <li>Sandgo-ro 369, Dongjiak-gu, Seoul, South Korea</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

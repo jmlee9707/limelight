@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LOGIN</title>
+        <link rel="shortcut icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+        <link rel="icon" href="./favicon/favicon_lime2.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./css/myBrand.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/scroll.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="./js/scroll.js"></script>
+        <style>
+            .login-page {
+                display: block;
+                width: 100%;
+                padding-top: 100px;
+            }
+            .login-input {
+                display: block;
+                width: 300px;
+                margin: 0 auto;
+                margin-bottom: 0.6em;
+            }
+            input[type = "text"] {
+                width: 300px;
+                height: 40px;
+                margin-bottom: 0.6em;
+            }
+            input[type = "password"] {
+                width: 300px;
+                height: 40px;
+                margin-bottom: 0.6em;
+            }
+            .login-social {
+                display: block;
+                width: 300px;
+                margin: 0 auto;
+            }
+            .social-icon{
+                display: inline-block;
+                margin: 0 auto;
+                margin-bottom: 0.6em;
+            }
+            #icon-image {
+                width: 35px;
+                height: 35px;
+                display: block;
+                width: auto;
+                margin: 0 auto;
+            }
+            .login-submit {
+                display: block;
+                width: 300px;
+                margin: 0 auto;
+            }
+            input[type = submit]{
+                background-color: grey;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 16px;
+                padding: 10px 130px;
+                margin-bottom: 0px;
+                width: 300px;
+            }
+            input[type = submit]:hover {
+                background-color: #C0D725;
+            }
+            .login-info{
+                display: block;
+                width: auto;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .find-info{
+                display: block;
+                margin: 0 auto;
+                width: 300px;
+                margin-top: 0.6em;
+            }
+            #find-info{
+                list-style: none;
+                display: inline-block;
+            }
+            .find-menu {
+                float: left;
+                margin: 5px;
+            }
+            div.layback {
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+
+            #login {
+             color: #C0D725;
+             font-weight: normal;
+             font-size: 1em;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="brandname">
+                <p class="limelight">
+                    <a href="./index2.html">limelight</a>
+                </p>
+            </div>
+            <div class="category">
+                <ul id="category_menu">
+                    <li class="category_menu">
+                        <a href="./limelight.html">LIMELIGHT</a> 
+                    </li>
+                    <li class="category_menu">
+                        <a href="./contact.html">CONTACT</a> 
+                    </li>
+                    <li class="category_menu">
+                        <a href="./brand.html">BRAND</a> 
+                    </li>
+                    <li class="category_menu">
+                        <a href="./collection.html" id="collection">COLLECTION</a>
+                    </li>
+                    <li class="user_menu">
+                        <a href="./login.html" id="login">LOGIN</a> 
+                    </li>
+                    <li class="user_menu">
+                        <a href="./join.html">JOIN</a> 
+                    </li>
+                    <li class="user_menu">
+                        <a href="./index3.html">STYLE</a> 
+                </ul>
+                <br>
+            </div>
+            <hr class="line">
+        </header>
+            <aside>
+                <input type="checkbox" id="menuicon">
+                <ul>
+                    <li>
+                        <label for="menuicon">
+                            <span></span><span></span><span></span>
+                        </label>
+                    </li>
+                </ul>
+                <div class="sidebar">
+                    <h3 class="mybrand">My Brand</h3>
+                    <div class="recommend-brand">
+                        <a href="./brandpage.html"><img src="./brand_image/sample_brand.jpg"  class="my-item" style="width: 200px;"></a>
+                    </div>
+                </div>
+                <a href="#" class="go_top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </aside>
+            <section>
+                <div class="layback"><p>&nbsp;</p></div>
+
+                <div class="login-page">
+                    <div class="login-input">
+                        <div class="login-box"><input type="text" name="id" size="20" placeholder="ID" ></div>
+                        <div class="login-box"><input type="password" name="pw" size="20" placeholder="PASSWORD"></div>
+                    </div>
+                    <div class="login-social">
+                        <div class="social-icon naver">
+                            <a href="https://www.naver.com/">
+                                <img src="./login_image/naver_icon.png" id="icon-image">
+                            </a>
+                        </div>
+                        <div class="social-icon kakao">
+                            <a href="https://www.kakaocorp.com/service/KakaoTalk?lang=ko">
+                                <img src="./login_image/kakao_icon.png" id="icon-image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="login-submit">
+                        <a href="./index.html"><input class="sumbmit" type="submit" value="LOGIN"></a>
+                    </div>
+                    <div class="login-info">
+                        <div class="find-info">
+                            <ul id="find-info">
+                                <!--<li class="find_menu"><a href="">LOGIN&nbsp;&nbsp;|</a></li>-->
+                                <li class="find-menu"><a href="./findID.html">FIND ID&nbsp;&nbsp;|</a></li>
+                                <li class="find-menu"><a href="./findPW.html">FIND PASSWORD</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="bottom-info">
+                    <span id="contact">CONTACT</span>
+                    <ul id="bottom-info">
+                        <li>02-123-5678</li>
+                        <li>limelight@gmail.com</li>
+                        <li>Sandgo-ro 369, Dongjiak-gu, Seoul, South Korea</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
